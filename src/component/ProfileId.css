@@ -1,0 +1,32 @@
+.stPrViInfo {
+  border: 10px solid;
+  z-index: 1;
+  width: 800px;
+  height: 700px;
+  transform: translateX(120%) translateY(30%);
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stPrViStudentProfileInfo,
+.stPrViTitleName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transform: translateY(120%);
+  text-align: left;
+}
+
+.stPrViTitleName {
+  font-size: 40px;
+}
+
+.stPrViStudentProfileInfo {
+  font-size: 30px;
+}
+
+.stPrViStudentInfoLeft {
+  opacity: 0.5;
+}
